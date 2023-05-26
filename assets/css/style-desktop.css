@@ -1,0 +1,205 @@
+/* STYLE GENERICI */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box; 
+    margin-left: auto;
+    margin-right: auto;
+}
+h1,h3 {
+    color: #25a2c3 ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    line-height: 1em;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+h3 {
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+  
+body{
+    font-family: 'Open Sans', sans-serif;
+    color:  #393d41 ;
+    font-size: 1.2rem;
+    
+}
+.container{
+  
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* LOGO */
+.logo-box {
+ 
+  background-color: black;
+  padding: 25px;
+  height: 100px;
+  width: 100%;
+}
+.logo-box img {
+    width: 160px;
+}
+
+
+/* HEADER */
+.claim{
+    text-align: center;
+    line-height: 1.5em;
+    padding:200px;
+    background-image: url(/assets/images/banner.jpg);
+    background-size: cover;
+    width: auto;
+    height: 600px;
+}
+
+
+.claim button{
+   background-color: #f84927;
+   color: white;
+   border: #f84927;
+   border-radius: 3px;
+   font-weight: bold;
+   padding: 0.7em 1.8em;
+}
+.claim p {
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+/* SECTION 1 */
+
+section{
+    text-align: center;
+    line-height: 1.5em;
+    padding-bottom: 35px;
+   
+}
+
+section img {
+ border-radius: 50%; 
+    width: auto;
+    height: 400px;
+    margin-top: 35px;
+}
+
+
+
+#inline-section {
+    display: inline-block; 
+    width: 40%;
+    
+  }
+  #inline-parag {
+    display: inline-block; 
+    width: 40%; 
+    line-height: 1em;
+    padding-left: 20px; 
+  }
+  /* #inline-parag h3:first-child,
+  #inline-parag p:first-child {
+    margin-top: 0; 
+  } */
+  
+  
+
+/* TESTIMONIANZE */
+
+
+#testimoni h2{
+color: white;
+}
+#testimoni{
+    background-color: #e22d0e;
+    color: white;
+    padding: 35px;
+    width: auto;
+    margin-bottom: 50px;
+}
+#testimoni p {
+    padding-top: 20px;
+    font-size: 1em;
+}
+#testimoni span{
+    font-size: 0.8em;
+}
+
+/* ASIDE TABLE*/
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+aside p {
+    padding: 25px;
+
+}
+
+tbody > tr > td > img{
+ width: 400px;
+ height: 300px;
+ margin
+}
+
+
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 25px;
+    padding-bottom: px;
+    padding-left: 45%;
+    color: white;
+    background-color: #25a2c3;
+    line-height: 1.5em; 
+    
+    
+}
+ul{
+   
+    list-style-type: none;
+}
+footer li:first-child{
+    text-decoration: underline;
+    
+}
+ hr{
+    text-align: center;
+    color: white;
+    width: 300px;
+    margin-right: 100px;
+    margin-left: 0px;
+">
+
+}
+footer a{
+    color: white;
+}
