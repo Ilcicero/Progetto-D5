@@ -142,9 +142,7 @@ aside img {
 }
 
 aside p {
-    margin-top: none;
-    border: 1px solid #ccc;
-    border-top: none;
+ 
     padding-bottom: 35px;
 }
 #imm2, #imm3{
