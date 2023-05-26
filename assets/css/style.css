@@ -1,0 +1,21 @@
+/* STYLE GENERICI */
+*{
+    box-sizing: border-box;
+}
+
+
+
+/* LOGO */
+.logo-box {
+  text-align: center;
+  background-color: black;
+  padding: 25px;
+  height: 100px;
+}
+.logo-box img {
+    width: 160px;
+
+}
+
+
+/* HEADER */
